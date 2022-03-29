@@ -3,13 +3,13 @@ import "../assets/css/style.css"
 import logo from "../assets/images/logo.png"
 import { Link } from "gatsby"
 const Cta = () => {
-  function getUrl() {
-    fetch("/.netlify/functions/url")
-      .then(res => res.text())
-      .then(data => (url = data))
-    return url
-  }
-  let url = getUrl()
+  // function getUrl() {
+  //   fetch("/.netlify/functions/url")
+  //     .then(res => res.text())
+  //     .then(data => (url = data))
+  //   return url
+  // }
+  // let url = getUrl()
   return (
     <>
       <div className="title">
@@ -27,10 +27,10 @@ const Cta = () => {
         <div className="button-container">
           <button
             className="button"
-            onClick={e => {
-              e.preventDefault()
-              window.location.href = url
-            }}
+            // onClick={e => {
+            //   e.preventDefault()
+            //   window.location.href = url
+            // }}
           >
             GET
           </button>
