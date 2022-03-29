@@ -1,1 +1,2 @@
-After downloading the files and installing npm and init it you should run "npx netlify link" to make a connection to your netlify website and then run "npx netlify dev" and you will find the page on the serverside.
+run "netlify link" then run "netlify dev"
+I didn't add .netlify and .chache in .gitignore
