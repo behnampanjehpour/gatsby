@@ -1,1 +1,1 @@
-After downloading the files and installing npm adn init it you should run "npm i -g netlify-cli" and then run "npx netlify link" to make a connection to your netlify website and then run "npx netlify dev" and you will find the page on the serverside.
+After downloading the files and installing npm and init it you should run "npx netlify link" to make a connection to your netlify website and then run "npx netlify dev" and you will find the page on the serverside.
