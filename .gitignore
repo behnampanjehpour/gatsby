@@ -55,7 +55,7 @@ typings/
 .env*
 
 # gatsby files
-.cache/
+
 public
 
 # Mac files
@@ -69,4 +69,4 @@ yarn-error.log
 .yarn-integrity
 
 # Local Netlify folder
-.netlify
+
